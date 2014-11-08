@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../mysql-connector-net/Source/MySql.Data/Properties/Resources.resx">
+    <Files>
+      <File FileName="../mysql-connector-net/Source/MySql.Data/command.cs" Line="1" Column="1" />
+      <File FileName="../mysql-connector-net/Source/MySql.Data/common/StreamCreator.cs" Line="1" Column="1" />
+      <File FileName="../mysql-connector-net/Source/MySql.Data/Properties/Resources.Designer.cs" Line="1" Column="1" />
+      <File FileName="../mysql-connector-net/Source/MySql.Data/Properties/Resources.resx" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

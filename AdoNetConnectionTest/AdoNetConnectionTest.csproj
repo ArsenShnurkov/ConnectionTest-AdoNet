@@ -8,12 +8,12 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ADO.NET_Connection_Test</RootNamespace>
-    <AssemblyName>ADO.NET Connection Test</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AssemblyName>AdoNetConnectionTest</AssemblyName>
     <FileAlignment>512</FileAlignment>
+    <UseMSBuildEngine>False</UseMSBuildEngine>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -36,9 +36,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -85,4 +83,21 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain" />
+          <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
+          <CSharpFormattingPolicy PropertyBraceStyle="NextLine" PropertyGetBraceStyle="NextLine" PropertySetBraceStyle="NextLine" EventBraceStyle="NextLine" EventAddBraceStyle="NextLine" EventRemoveBraceStyle="NextLine" StatementBraceStyle="NextLine" ElseNewLinePlacement="NewLine" ElseIfNewLinePlacement="NewLine" CatchNewLinePlacement="NewLine" FinallyNewLinePlacement="NewLine" WhileNewLinePlacement="NewLine" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" NewLineBeforeConstructorInitializerColon="NewLine" NewLineAfterConstructorInitializerColon="SameLine" BeforeIndexerDeclarationBracket="False" BeforeDelegateDeclarationParentheses="False" AfterDelegateDeclarationParameterComma="True" NewParentheses="False" SpacesBeforeBrackets="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <ProjectReference Include="..\..\mysql-connector-net\Source\MySql.Data\MySql.Data.csproj">
+      <Project>{E9DF5ED1-4CBD-4226-B931-9A51610AC14D}</Project>
+      <Name>MySql.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
