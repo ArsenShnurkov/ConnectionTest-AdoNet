@@ -1,30 +1,26 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AdoNetConnectionTest/Form1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdoNetConnectionTest/Program.cs">
     <Files>
-      <File FileName="AdoNetConnectionTest/Form1.cs" Line="77" Column="1" />
-      <File FileName="AdoNetConnectionTest/App.config" Line="14" Column="249" />
-      <File FileName="AdoNetConnectionTest/Form1.Designer.cs" Line="15" Column="1" />
+      <File FileName="AdoNetConnectionTest/Properties/AssemblyInfo.cs" Line="6" Column="1" />
+      <File FileName="AdoNetConnectionTest/Properties/Settings.settings" Line="1" Column="1" />
+      <File FileName="AdoNetConnectionTest/App.config" Line="1" Column="1" />
+      <File FileName="AdoNetConnectionTest/Form1.cs" Line="126" Column="17" />
+      <File FileName="AdoNetConnectionTest/Program.cs" Line="3" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AdoNetConnectionTest" expanded="True" selected="True">
-            <Node name="References" expanded="True" />
-            <Node name="Form1.cs" expanded="True" />
-          </Node>
-          <Node name="Community.CsharpSqlite.SQLiteClient" expanded="True">
-            <Node name="Properties" expanded="True" />
-            <Node name="src" expanded="True" />
-          </Node>
+          <Node name="AdoNetConnectionTest" expanded="True" selected="True" />
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/var/calculate/remote/distfiles/egit-src/ADONETConnectionTest/AdoNetConnectionTest/Form1.cs" line="75" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
