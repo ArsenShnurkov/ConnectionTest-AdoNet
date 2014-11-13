@@ -10,7 +10,7 @@
     <RootNamespace>ADO.NET_Connection_Test</RootNamespace>
     <AssemblyName>AdoNetConnectionTest</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,6 +92,12 @@
           <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain" />
           <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp" />
           <CSharpFormattingPolicy PropertyBraceStyle="NextLine" PropertyGetBraceStyle="NextLine" PropertySetBraceStyle="NextLine" EventBraceStyle="NextLine" EventAddBraceStyle="NextLine" EventRemoveBraceStyle="NextLine" StatementBraceStyle="NextLine" ElseNewLinePlacement="NewLine" ElseIfNewLinePlacement="NewLine" CatchNewLinePlacement="NewLine" FinallyNewLinePlacement="NewLine" WhileNewLinePlacement="NewLine" BeforeMethodDeclarationParentheses="False" BeforeMethodCallParentheses="False" BeforeConstructorDeclarationParentheses="False" NewLineBeforeConstructorInitializerColon="NewLine" NewLineAfterConstructorInitializerColon="SameLine" BeforeIndexerDeclarationBracket="False" BeforeDelegateDeclarationParentheses="False" AfterDelegateDeclarationParameterComma="True" NewParentheses="False" SpacesBeforeBrackets="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
+          <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/microsoft-resx" />
+          <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="text/microsoft-resx" />
+          <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/xml" />
+          <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
+          <TextStylePolicy TabWidth="8" RemoveTrailingWhitespace="False" NoTabsAfterNonTabs="True" EolMarker="Windows" inheritsSet="VisualStudio" inheritsScope="text/plain" scope="application/config+xml" />
+          <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/config+xml" />
         </Policies>
       </Properties>
     </MonoDevelop>
